@@ -1,0 +1,21 @@
+.scrollmagic {
+  .section {
+    height: 100vh;
+  }
+
+  .sticky {
+    background-color: red;
+    width: 100%;
+    & div {
+      height: 20px;
+    }
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+}

@@ -1,0 +1,20 @@
+.class-toggle {
+  .section {
+    height: 100vh;
+  }
+
+  .test {
+    transition: width 0.3s ease-out;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 !important;
+
+    &.yellow {
+      background-color: yellow;
+    }
+  }
+  .zap {
+    width: 100%;
+  }
+}
